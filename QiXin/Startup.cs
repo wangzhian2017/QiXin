@@ -33,6 +33,7 @@ namespace QiXin
             {
                 app.UseDeveloperExceptionPage();
             }
+
             app.UseStaticFiles();
             app.UseMvc();
         }
